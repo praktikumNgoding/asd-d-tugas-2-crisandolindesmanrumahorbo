@@ -99,20 +99,28 @@ class LinkedList{
 };
 int main(){
 	LinkedList list;
+	cout<<"Inisialisasi pertama : "<<"\n";
 	list.infirst(20);
 	list.print();
+	cout<<"Insert data baru di depan : "<<"\n";
 	list.depan(30);
 	list.print();
+	cout<<"Insert data baru di belakang : "<<"\n";
 	list.belakang(50);
 	list.print();
+	cout<<"Insert data setelah data tertentu : "<<"\n";
 	list.set(55,30);
 	list.print();
+	cout<<"Insert data sebelum data tertentu : "<<"\n";
 	list.seb(22,50);
 	list.print();
+	cout<<"Hapus data di depan : "<<"\n";
 	list.hapusdepan();
 	list.print();
+	cout<<"Hapus data di belakang : "<<"\n";
 	list.hapusbelakang();
 	list.print();
+	cout<<"Hapus data setelah data tertentu : "<<"\n";
 	list.hapussesuatu(20);
 	list.print();
 }
